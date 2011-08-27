@@ -109,7 +109,7 @@ describeBrowser("widgetConfig", function () {
         var configXML,
             result;
 
-        configXML = _getConfig("config_no_widet_node.xml");
+        configXML = _getConfig("config_no_widget_node.xml");
 
         result = widgetConfig.validate(configXML).widget;
 
